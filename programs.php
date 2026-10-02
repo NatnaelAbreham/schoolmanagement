@@ -992,36 +992,47 @@
 <body>
 
 
-<!-- =========================================
+<!-- =====================================================
      NAVBAR
-========================================= -->
+===================================================== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top main-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark main-navbar">
 
     <div class="container">
 
+
+        <!-- LOGO -->
+
         <a
-            class="navbar-brand d-flex align-items-center gap-2"
+            class="navbar-brand college-logo"
             href="index.php"
         >
 
-            <span class="brand-icon">
-                <i class="bi bi-stars"></i>
-            </span>
+            <div class="logo-symbol">
 
-            <span class="brand-name">
-                Aurora
-            </span>
+                <i class="bi bi-stars"></i>
+
+            </div>
+
+            <div class="logo-text">
+
+                <strong>AURORA</strong>
+
+                <span>COLLEGE</span>
+
+            </div>
 
         </a>
 
+
+        <!-- MOBILE BUTTON -->
 
         <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#mainNavbar"
-            aria-controls="mainNavbar"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
             aria-expanded="false"
             aria-label="Toggle navigation"
         >
@@ -1031,17 +1042,20 @@
         </button>
 
 
+        <!-- NAVIGATION -->
+
         <div
             class="collapse navbar-collapse"
-            id="mainNavbar"
+            id="mainNavigation"
         >
 
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
 
                 <li class="nav-item">
 
                     <a
-                        class="nav-link"
+                        class="nav-link active"
                         href="index.php"
                     >
                         Home
@@ -1065,8 +1079,8 @@
                 <li class="nav-item">
 
                     <a
-                        class="nav-link active"
-                        href="programs.php"
+                        class="nav-link"
+                        href="#programs"
                     >
                         Programs
                     </a>
@@ -1078,7 +1092,7 @@
 
                     <a
                         class="nav-link"
-                        href="#admissions"
+                        href="#admission"
                     >
                         Admissions
                     </a>
@@ -1097,31 +1111,36 @@
 
                 </li>
 
+
+                <li class="nav-item nav-login">
+
+                    <a
+                        class="nav-link login-link"
+                        href="login.php"
+                    >
+                        Login
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="btn apply-btn"
+                        href="register.php"
+                    >
+
+                        Apply Now
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </a>
+
+                </li>
+
+
             </ul>
-
-
-            <div class="d-flex align-items-center gap-3">
-
-                <a
-                    href="login.php"
-                    class="nav-login"
-                >
-                    Login
-                </a>
-
-
-                <a
-                    href="register.php"
-                    class="btn btn-primary-custom"
-                >
-
-                    Apply Now
-
-                    <i class="bi bi-arrow-up-right ms-1"></i>
-
-                </a>
-
-            </div>
 
         </div>
 

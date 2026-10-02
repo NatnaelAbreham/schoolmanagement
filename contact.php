@@ -381,96 +381,161 @@ $pageTitle = "Contact Us | Aurora College";
 
 <div class="contact-page">
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-3">
-        <div class="container">
+   <!-- =====================================================
+     NAVBAR
+===================================================== -->
 
-            <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
-                <span
-                    style="
-                        width:38px;
-                        height:38px;
-                        border-radius:11px;
-                        display:flex;
-                        align-items:center;
-                        justify-content:center;
-                        background:linear-gradient(135deg,#4f8cff,#8b5cf6);
-                    "
-                >
-                    <i class="bi bi-stars"></i>
-                </span>
+<nav class="navbar navbar-expand-lg navbar-dark main-navbar">
 
-                <span style="font-weight:700;">
-                    Aurora College
-                </span>
-            </a>
+    <div class="container">
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="mainNavbar">
+        <!-- LOGO -->
 
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <a
+            class="navbar-brand college-logo"
+            href="index.php"
+        >
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">
-                            Home
-                        </a>
-                    </li>
+            <div class="logo-symbol">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.php">
-                            About
-                        </a>
-                    </li>
+                <i class="bi bi-stars"></i>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="programs.php">
-                            Programs
-                        </a>
-                    </li>
+            </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="register.php">
-                            Admissions
-                        </a>
-                    </li>
+            <div class="logo-text">
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.php">
-                            Contact
-                        </a>
-                    </li>
+                <strong>AURORA</strong>
 
-                </ul>
+                <span>COLLEGE</span>
 
-                <div class="d-flex gap-2">
+            </div>
+
+        </a>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- NAVIGATION -->
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNavigation"
+        >
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+
+                <li class="nav-item">
 
                     <a
+                        class="nav-link active"
+                        href="index.php"
+                    >
+                        Home
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="about.php"
+                    >
+                        About
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="#programs"
+                    >
+                        Programs
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="#admission"
+                    >
+                        Admissions
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a
+                        class="nav-link"
+                        href="#contact"
+                    >
+                        Contact
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item nav-login">
+
+                    <a
+                        class="nav-link login-link"
                         href="login.php"
-                        class="btn btn-outline-light px-4"
                     >
                         Login
                     </a>
 
+                </li>
+
+
+                <li class="nav-item">
+
                     <a
+                        class="btn apply-btn"
                         href="register.php"
-                        class="btn btn-primary px-4"
                     >
+
                         Apply Now
+
+                        <i class="bi bi-arrow-up-right"></i>
+
                     </a>
 
-                </div>
+                </li>
 
-            </div>
+
+            </ul>
+
         </div>
-    </nav>
+
+    </div>
+
+</nav>
 
 
     <!-- HERO -->
