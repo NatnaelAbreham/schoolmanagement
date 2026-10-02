@@ -2180,42 +2180,52 @@
 ========================================= -->
 
 <footer
-    class="main-footer"
+    class="footer"
     id="contact"
 >
 
+
     <div class="container">
+
 
         <div class="row g-5">
 
 
             <div class="col-lg-5">
 
+
                 <a
                     href="index.php"
-                    class="navbar-brand d-inline-flex align-items-center gap-2 mb-3"
+                    class="college-logo footer-logo"
                 >
 
-                    <span class="brand-icon">
-                        <i class="bi bi-stars"></i>
-                    </span>
+                    <div class="logo-symbol">
 
-                    <span class="brand-name">
-                        Aurora
-                    </span>
+                        <i class="bi bi-stars"></i>
+
+                    </div>
+
+                    <div class="logo-text">
+
+                        <strong>AURORA</strong>
+
+                        <span>COLLEGE</span>
+
+                    </div>
 
                 </a>
 
 
                 <p class="footer-description">
 
-                    Discover your potential. Build your skills.
-                    Create your future.
+                    Empowering students with knowledge,
+                    skills and confidence to create a
+                    better tomorrow.
 
                 </p>
 
 
-                <div class="footer-socials">
+                <div class="social-links">
 
                     <a href="#">
                         <i class="bi bi-facebook"></i>
@@ -2230,7 +2240,7 @@
                     </a>
 
                     <a href="#">
-                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-telegram"></i>
                     </a>
 
                 </div>
@@ -2238,127 +2248,100 @@
             </div>
 
 
+
             <div class="col-6 col-lg-2">
 
-                <h5 class="footer-title">
+                <h5>
                     Explore
                 </h5>
 
+                <a href="index.php">
+                    Home
+                </a>
 
-                <ul class="footer-links">
+                <a href="about.php">
+                    About
+                </a>
 
-                    <li>
-                        <a href="index.php">
-                            Home
-                        </a>
-                    </li>
+                <a href="#programs">
+                    Programs
+                </a>
 
-                    <li>
-                        <a href="about.php">
-                            About
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="programs.php">
-                            Programs
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="register.php">
-                            Admissions
-                        </a>
-                    </li>
-
-                </ul>
+                <a href="#admission">
+                    Admissions
+                </a>
 
             </div>
+
 
 
             <div class="col-6 col-lg-2">
 
-                <h5 class="footer-title">
+                <h5>
                     Students
                 </h5>
 
+                <a href="register.php">
+                    Register
+                </a>
 
-                <ul class="footer-links">
+                <a href="login.php">
+                    Login
+                </a>
 
-                    <li>
-                        <a href="login.php">
-                            Student Login
-                        </a>
-                    </li>
+                <a href="#">
+                    Student Portal
+                </a>
 
-                    <li>
-                        <a href="register.php">
-                            Apply Now
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            Student Life
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            Resources
-                        </a>
-                    </li>
-
-                </ul>
+                <a href="#">
+                    FAQs
+                </a>
 
             </div>
+
 
 
             <div class="col-lg-3">
 
-                <h5 class="footer-title">
+                <h5>
                     Contact
                 </h5>
 
+                <div class="contact-item">
 
-                <ul class="footer-contact">
+                    <i class="bi bi-geo-alt"></i>
 
-                    <li>
+                    <span>
+                        Aurora Campus,
+                        Addis Ababa
+                    </span>
 
-                        <i class="bi bi-geo-alt"></i>
-
-                        <span>
-                            Aurora Campus<br>
-                            Main Academic Avenue
-                        </span>
-
-                    </li>
+                </div>
 
 
-                    <li>
+                <div class="contact-item">
 
-                        <i class="bi bi-envelope"></i>
+                    <i class="bi bi-envelope"></i>
 
-                        <span>
-                            info@auroracollege.edu
-                        </span>
+                    <span>
+                        info@auroracollege.edu
+                    </span>
 
-                    </li>
+                </div>
 
 
-                    <li>
+                <div class="contact-item">
 
-                        <i class="bi bi-telephone"></i>
+                    <i class="bi bi-telephone"></i>
 
-                        <span>
-                            +251 900 000 000
-                        </span>
+                    <span>
+                        +251 11 000 0000
+                    </span>
 
-                    </li>
-
-                </ul>
+                </div>
 
             </div>
+
 
         </div>
 
@@ -2370,16 +2353,17 @@
                 All rights reserved.
             </span>
 
-
             <span>
                 Discover. Learn. Become.
             </span>
 
         </div>
 
+
     </div>
 
 </footer>
+
 
 
 

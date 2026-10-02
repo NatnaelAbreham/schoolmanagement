@@ -862,34 +862,191 @@ $pageTitle = "Contact Us | Aurora College";
 
 
     <!-- FOOTER -->
-    <footer class="contact-footer">
+    <footer
+    class="footer"
+    id="contact"
+>
 
-        <div class="container">
 
-            <div class="row align-items-center g-3">
+    <div class="container">
 
-                <div class="col-md-6">
 
-                    <strong>Aurora College</strong>
+        <div class="row g-5">
 
-                    <span class="ms-2">
-                        Discover. Learn. Become.
-                    </span>
 
-                </div>
+            <div class="col-lg-5">
 
-                <div class="col-md-6 text-md-end">
 
-                    © <?php echo date("Y"); ?> Aurora College.
-                    All rights reserved.
+                <a
+                    href="index.php"
+                    class="college-logo footer-logo"
+                >
+
+                    <div class="logo-symbol">
+
+                        <i class="bi bi-stars"></i>
+
+                    </div>
+
+                    <div class="logo-text">
+
+                        <strong>AURORA</strong>
+
+                        <span>COLLEGE</span>
+
+                    </div>
+
+                </a>
+
+
+                <p class="footer-description">
+
+                    Empowering students with knowledge,
+                    skills and confidence to create a
+                    better tomorrow.
+
+                </p>
+
+
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-telegram"></i>
+                    </a>
 
                 </div>
 
             </div>
 
+
+
+            <div class="col-6 col-lg-2">
+
+                <h5>
+                    Explore
+                </h5>
+
+                <a href="index.php">
+                    Home
+                </a>
+
+                <a href="about.php">
+                    About
+                </a>
+
+                <a href="#programs">
+                    Programs
+                </a>
+
+                <a href="#admission">
+                    Admissions
+                </a>
+
+            </div>
+
+
+
+            <div class="col-6 col-lg-2">
+
+                <h5>
+                    Students
+                </h5>
+
+                <a href="register.php">
+                    Register
+                </a>
+
+                <a href="login.php">
+                    Login
+                </a>
+
+                <a href="#">
+                    Student Portal
+                </a>
+
+                <a href="#">
+                    FAQs
+                </a>
+
+            </div>
+
+
+
+            <div class="col-lg-3">
+
+                <h5>
+                    Contact
+                </h5>
+
+                <div class="contact-item">
+
+                    <i class="bi bi-geo-alt"></i>
+
+                    <span>
+                        Aurora Campus,
+                        Addis Ababa
+                    </span>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="bi bi-envelope"></i>
+
+                    <span>
+                        info@auroracollege.edu
+                    </span>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="bi bi-telephone"></i>
+
+                    <span>
+                        +251 11 000 0000
+                    </span>
+
+                </div>
+
+            </div>
+
+
         </div>
 
-    </footer>
+
+        <div class="footer-bottom">
+
+            <span>
+                © <?php echo date("Y"); ?> Aurora College.
+                All rights reserved.
+            </span>
+
+            <span>
+                Discover. Learn. Become.
+            </span>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
 
 </div>
 
