@@ -1083,7 +1083,7 @@
 
                     <a
                         class="nav-link"
-                        href="#programs"
+                        href="programs.php"
                     >
                         Programs
                     </a>
@@ -1107,7 +1107,7 @@
 
                     <a
                         class="nav-link"
-                        href="#contact"
+                        href="contact.php"
                     >
                         Contact
                     </a>

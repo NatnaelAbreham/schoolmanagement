@@ -469,7 +469,7 @@ $pageTitle = "Contact Us | Aurora College";
 
                     <a
                         class="nav-link"
-                        href="#programs"
+                        href="programs.php"
                     >
                         Programs
                     </a>
@@ -493,7 +493,7 @@ $pageTitle = "Contact Us | Aurora College";
 
                     <a
                         class="nav-link"
-                        href="#contact"
+                        href="contact.php"
                     >
                         Contact
                     </a>

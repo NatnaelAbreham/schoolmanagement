@@ -804,7 +804,7 @@
 
                     <a
                         class="nav-link"
-                        href="contactcontact"
+                        href="contact.php"
                     >
                         Contact
                     </a>
