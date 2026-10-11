@@ -792,7 +792,7 @@
 
                     <a
                         class="nav-link"
-                        href="#admission"
+                        href="admission.php"
                     >
                         Admissions
                     </a>
